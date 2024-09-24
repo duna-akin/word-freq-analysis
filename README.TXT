@@ -125,9 +125,3 @@ The results are then written to a file (`Lab04.txt`), and the top 5 most frequen
 ### Author
 - **Tuna Akin**
 - Version: 9/23/2024
-
----
-
-### License
-
-This project is for educational purposes and is open for modification and distribution as per the needs of the course.
