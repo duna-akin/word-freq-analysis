@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WordList
+comment0.text=\r\n\ WordList\ class\ that\ holds\ a\ list\ of\ Word\ objects\ and\ provides\ methods\ to\ operate\ on\ the\ list.\r\n\ It\ processes\ a\ list\ of\ tokens\ while\ filtering\ out\ stop\ words.\r\n\ \r\n\ @author\ tuna-akin\r\n\ @version\ 9/23/2024\r\n
+comment1.params=stopWords\ tokens
+comment1.target=WordList(java.util.ArrayList,\ java.lang.String[])
+comment1.text=\r\n\ Constructor\ for\ WordList.\r\n\ Initializes\ the\ wordFrequency\ list\ by\ processing\ the\ tokens\ and\ filtering\ out\ stopWords.\r\n\ \r\n\ @param\ stopWords\ The\ list\ of\ words\ to\ ignore.\r\n\ @param\ tokens\ The\ array\ of\ words\ (tokens)\ to\ process.\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getWordFrequency()
+comment2.text=\r\n\ Returns\ the\ list\ of\ Word\ objects\ and\ their\ frequencies.\r\n\ \r\n\ @return\ The\ wordFrequency\ list.\r\n
+comment3.params=w
+comment3.target=int\ search(java.lang.String)
+comment3.text=\r\n\ Searches\ for\ a\ word\ in\ the\ wordFrequency\ list.\r\n\ \r\n\ @param\ w\ The\ word\ to\ search\ for.\r\n\ @return\ The\ index\ of\ the\ word\ in\ the\ list,\ or\ -1\ if\ not\ found.\r\n
+comment4.params=
+comment4.target=Word\ getMostFrequent()
+comment4.text=\r\n\ Returns\ the\ most\ frequent\ word\ in\ the\ wordFrequency\ list.\r\n\ \r\n\ @return\ The\ Word\ object\ with\ the\ highest\ frequency,\ or\ null\ if\ the\ list\ is\ empty.\r\n
+comment5.params=k
+comment5.target=Word[]\ topKMostFrequent(int)
+comment5.text=\r\n\ Returns\ the\ top\ k\ most\ frequent\ words.\r\n\ \r\n\ @param\ k\ The\ number\ of\ most\ frequent\ words\ to\ return.\r\n\ @return\ An\ array\ of\ the\ top\ k\ Word\ objects.\r\n
+comment6.params=word\ stopWords
+comment6.target=boolean\ isStopWord(java.lang.String,\ java.util.ArrayList)
+comment6.text=\r\n\ Helper\ method\ to\ check\ if\ a\ word\ is\ in\ the\ stopWords\ list.\r\n\ \r\n\ @param\ word\ The\ word\ to\ check.\r\n\ @param\ stopWords\ The\ list\ of\ stop\ words.\r\n\ @return\ True\ if\ the\ word\ is\ a\ stop\ word,\ otherwise\ false.\r\n
+numComments=7

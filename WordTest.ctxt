@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WordTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ Word\ class.\r\n\ \r\n\ @author\ tuna-akin\r\n\ @version\ 9/23/24\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Set\ up\ a\ Word\ object\ for\ testing\ before\ each\ test.\r\n
+comment2.params=
+comment2.target=void\ testGetWord()
+comment2.text=\r\n\ Test\ the\ constructor\ and\ getWord\ method.\r\n\ This\ test\ ensures\ that\ the\ constructor\ initializes\ the\ word\ correctly.\r\n
+comment3.params=
+comment3.target=void\ testInitialFrequency()
+comment3.text=\r\n\ Test\ the\ constructor\ and\ initial\ frequency.\r\n\ This\ test\ ensures\ that\ the\ word\ frequency\ is\ initially\ 1.\r\n
+comment4.params=
+comment4.target=void\ testIncr()
+comment4.text=\r\n\ Test\ the\ incr\ method.\r\n\ This\ test\ ensures\ that\ the\ frequency\ increases\ correctly\ when\ incr\ is\ called.\r\n
+comment5.params=
+comment5.target=void\ testToString()
+comment5.text=\r\n\ Test\ the\ toString\ method.\r\n\ This\ test\ ensures\ that\ the\ toString\ method\ formats\ the\ output\ correctly.\r\n
+comment6.params=
+comment6.target=void\ testCompareTo()
+comment6.text=\r\n\ Test\ the\ compareTo\ method.\r\n\ This\ test\ ensures\ that\ compareTo\ works\ correctly.\r\n
+numComments=7

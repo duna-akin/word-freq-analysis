@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Lab4Main
+comment0.text=\r\n\ Main\ class\ for\ Lab\ 4.\ Reads\ from\ files,\ processes\ the\ text\ to\ count\ word\ frequencies,\ and\ prints\ the\ result\ to\ a\ file\ and\ console.\r\n\ \r\n\ @author\ tuna-akin\r\n\ @version\ 9/23/2024\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

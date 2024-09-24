@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WordListTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ WordList\ class.\r\n\ \r\n\ @author\ tuna-akin\r\n\ @version\ 9/23/2024\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Set\ up\ a\ WordList\ object\ and\ test\ data\ before\ each\ test.\r\n
+comment2.params=
+comment2.target=void\ testGetWordFrequency()
+comment2.text=\r\n\ Test\ the\ constructor\ and\ getWordFrequency\ method.\r\n\ This\ test\ ensures\ that\ the\ wordFrequency\ list\ is\ built\ correctly,\ skipping\ stopWords.\r\n
+comment3.params=
+comment3.target=void\ testSearch()
+comment3.text=\r\n\ Test\ the\ search\ method.\r\n\ This\ test\ ensures\ that\ the\ search\ method\ correctly\ finds\ the\ index\ of\ a\ word.\r\n
+comment4.params=
+comment4.target=void\ testGetMostFrequent()
+comment4.text=\r\n\ Test\ the\ getMostFrequent\ method.\r\n\ This\ test\ ensures\ that\ the\ getMostFrequent\ method\ correctly\ identifies\ the\ most\ frequent\ word.\r\n
+comment5.params=
+comment5.target=void\ testTopKMostFrequent()
+comment5.text=\r\n\ Test\ the\ topKMostFrequent\ method.\r\n\ This\ test\ ensures\ that\ the\ topKMostFrequent\ method\ returns\ the\ correct\ top\ K\ words.\r\n
+comment6.params=
+comment6.target=void\ testIsStopWord()
+comment6.text=\r\n\ Test\ the\ isStopWord\ method.\r\n\ This\ test\ ensures\ that\ the\ isStopWord\ method\ correctly\ identifies\ stopWords.\r\n
+numComments=7

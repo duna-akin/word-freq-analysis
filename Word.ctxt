@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Word
+comment0.text=\r\n\ The\ Word\ class\ represents\ a\ word\ with\ its\ frequency\ of\ occurrence.\r\n\ It\ implements\ Comparable\ to\ allow\ comparison\ of\ words.\r\n\ \r\n\ @author\ tuna-akin\r\n\ @version\ 9/23/2024\r\n
+comment1.params=paramWord
+comment1.target=Word(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ creating\ a\ Word\ object\ with\ an\ initial\ frequency\ of\ 1.\r\n\ \r\n\ @param\ paramWord\ The\ word\ to\ be\ stored\ in\ the\ object.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getWord()
+comment2.text=\r\n\ Getter\ method\ for\ the\ word\ variable.\r\n\ \r\n\ @return\ The\ word\ stored\ in\ this\ object.\r\n
+comment3.params=
+comment3.target=int\ getFrequency()
+comment3.text=\r\n\ Getter\ method\ for\ the\ frequency\ variable.\r\n\ \r\n\ @return\ The\ current\ frequency\ of\ the\ word.\r\n
+comment4.params=
+comment4.target=void\ incr()
+comment4.text=\r\n\ Increases\ the\ frequency\ of\ the\ word\ by\ 1.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ Word\ object\ in\ the\ format\ "<word,\ frequency>".\r\n\ \r\n\ @return\ A\ string\ representing\ the\ word\ and\ its\ frequency.\r\n
+comment6.params=w
+comment6.target=int\ compareTo(Word)
+comment6.text=\r\n\ Compares\ this\ word\ with\ another\ word.\r\n\ \r\n\ @param\ w\ The\ Word\ object\ to\ compare\ against.\r\n\ @return\ A\ negative,\ zero,\ or\ positive\ value\ if\ this\ word\ is\ less\ than,\ equal\ to,\ or\ greater\ than\ the\ specified\ word.\r\n
+numComments=7
